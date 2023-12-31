@@ -1,7 +1,7 @@
 export const lexicon: LexiconCategory[]  = [
     {
         id: "taste basics",
-        image: "./public/images/taste-basics.jpg",
+        image: "./images/taste-basics.jpg",
         displayName_en: "TASTE BASICS",
         displayName_ja: "基本の味",
         items:[
@@ -41,7 +41,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "fruity",
-        image: "./public/images/fruity.jpg",
+        image: "./images/fruity.jpg",
         displayName_en: "FRUITY",
         displayName_ja: "フルーティー",
         items: [
@@ -241,7 +241,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "sour/acid",
-        image: "./public/images/sour-acid.jpg",
+        image: "./images/sour-acid.jpg",
         displayName_en: "SOUR/ACID",
         displayName_ja: "酸味/酸性",
         items: [
@@ -297,7 +297,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "alcohol/fermented",
-        image: "./public/images/alcohol-fermented.jpg",
+        image: "./images/alcohol-fermented.jpg",
         displayName_en: "ALCOHOL/FERMENTED",
         displayName_ja: "アルコール/発酵",
         items: [
@@ -345,7 +345,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "green/vegetative",
-        image: "./public/images/green-vegetative.jpg",
+        image: "./images/green-vegetative.jpg",
         displayName_en: "GREEN/VEGETATIVE",
         displayName_ja: "緑/植物性",
         items: [
@@ -441,7 +441,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "stale/papery",
-        image: "./public/images/stale-papery.jpg",
+        image: "./images/stale-papery.jpg",
         displayName_en: "STALE/PAPERY",
         displayName_ja: "古くなった/紙のような",
         items: [
@@ -473,7 +473,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "earthy",
-        image: "./public/images/earthy.jpg",
+        image: "./images/earthy.jpg",
         displayName_en: "EARTHY",
         displayName_ja: "土のような",
         items: [
@@ -537,7 +537,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "chemical",
-        image: "./public/images/chemical.jpg",
+        image: "./images/chemical.jpg",
         displayName_en: "CHEMICAL",
         displayName_ja: "化学的",
         items: [
@@ -577,7 +577,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "roasted",
-        image: "./public/images/roasted.jpg",
+        image: "./images/roasted.jpg",
         displayName_en: "ROASTED",
         displayName_ja: "焙煎",
         items: [
@@ -649,7 +649,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "cereal",
-        image: "./public/images/cereal.jpg",
+        image: "./images/cereal.jpg",
         displayName_en: "CEREAL",
         displayName_ja: "穀物",
         items: [
@@ -673,7 +673,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "spices",
-        image: "./public/images/spices.jpg",
+        image: "./images/spices.jpg",
         displayName_en: "SPICES",
         displayName_ja: "スパイス",
         items: [
@@ -737,7 +737,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "nutty",
-        image: "./public/images/nutty.jpg",
+        image: "./images/nutty.jpg",
         displayName_en: "NUTTY",
         displayName_ja: "ナッツのような",
         items: [
@@ -777,7 +777,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "cocoa",
-        image: "./public/images/cocoa.jpg",
+        image: "./images/cocoa.jpg",
         displayName_en: "COCOA",
         displayName_ja: "ココア",
         items: [
@@ -809,7 +809,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "sweet",
-        image: "./public/images/sweet.jpg",
+        image: "./images/sweet.jpg",
         displayName_en: "SWEET",
         displayName_ja: "甘味",
         items: [
@@ -889,7 +889,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "floral",
-        image: "./public/images/floral.jpg",
+        image: "./images/floral.jpg",
         displayName_en: "FLORAL",
         displayName_ja: "花のような",
         items: [
@@ -937,7 +937,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "amplitude",
-        image: "./public/images/amplitude.jpg",
+        image: "./images/amplitude.jpg",
         displayName_en: "AMPLITUDE",
         displayName_ja: "振幅",
         items: [
@@ -977,7 +977,7 @@ export const lexicon: LexiconCategory[]  = [
     },
     {
         id: "mouthfeel",
-        image: "./public/images/mouthfeel.jpg",
+        image: "./images/mouthfeel.jpg",
         displayName_en: "MOUTHFEEL",
         displayName_ja: "口当たり",
         items: [
