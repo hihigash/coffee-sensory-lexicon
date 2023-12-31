@@ -17,7 +17,7 @@ function FlavorItem(item: LexiconItem) {
           <div className="flex flex-col pl-2.5">
             <div className="flex flex-row items-center">
               <svg className="h-10 w-10 m-2">
-                <circle cx="20" cy="20" r="20" fill={item.color} />
+                <circle cx="20" cy="20" r="18" strokeWidth="2" stroke="#CCCCCC" fill={item.color} />
               </svg>
               <strong className="text-2xl uppercase">
                 {item.displayName_en}
