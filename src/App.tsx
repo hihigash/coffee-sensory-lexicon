@@ -1,17 +1,15 @@
-import { lexicon } from './lexicon'
-import Category from './Category'
-import './App.css'
+import { lexicon } from "./lexicon";
+import Category from "./Category";
+import "./App.css";
 
 function App() {
   return (
-    lexicon.map((category) => {
-      return (
-        <div key={category.id} className='container mx-auto border rounded'>
-          <Category {...category} />
-        </div>
-      );
-    })
+    <div className="container mx-auto">
+      {lexicon.map((category) => {
+        return <Category key={category.id} {...category} />;
+      })}
+    </div>
   );
 }
 
-export default App
+export default App;

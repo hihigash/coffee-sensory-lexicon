@@ -2,10 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      padding: "1rem",
+    },
     fontFamily: {
-      jptext: ["Noto Sans JP"]
+      sans: ["Noto Sans JP"],
     },
     extend: {},
   },
   plugins: [],
-}
+};

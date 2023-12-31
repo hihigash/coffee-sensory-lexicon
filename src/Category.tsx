@@ -1,27 +1,42 @@
-import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquareCaretDown } from '@fortawesome/free-regular-svg-icons'
-import FlavorItem from './FlavorItem'
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import FlavorItem from "./FlavorItem";
 
 function Category(category: LexiconCategory) {
-    const [show, setShow] = useState(false);
-    return (
-        <div key={category.id} className='text-left' onClick={() => setShow(state => !state)}>
-            <FontAwesomeIcon icon={faSquareCaretDown} />
-            <div className='text-2xl font-bold'>{category.displayName_en}</div>
-            <div className='font-jptext font-bold'>{category.displayName_ja}</div>
-            {
-                show ? (
-                    <ul key={category.id} className='flex flex-col'>
-                        {category.items.map((item) => {
-                            return (
-                                <FlavorItem key={item.id} {...item} />
-                            )
-                        })}
-                    </ul>
-                ) : null
-            }
-        </div>
-    )
+  const [show, setShow] = useState(false);
+  return (
+    <div
+      key={category.id}
+      className="divided-y divide-slate-300 border-l border-r border-b first:rounded-t first:border last:rounded-b last:boarder p-2"
+      onClick={() => setShow((state) => !state)}
+    >
+      <div className="flex flex-row items-center">
+        <img
+          src={category.image}
+          alt={category.displayName_en}
+          className="rounded-full w-16 h-16 m-2"
+        />
+        <strong className="text-2xl">{category.displayName_en}</strong>
+        <span className="font-sans text-sm p-2 text-slate-500">
+          {category.displayName_ja}
+        </span>
+        <FontAwesomeIcon icon={faAngleRight} className="ml-auto" />
+      </div>
+      <div>
+        {show ? (
+          <ul
+            key={category.id}
+            role="list"
+            className="divide-y divide-slate-200 first:border-t-2 first:border-double"
+          >
+            {category.items.map((item) => {
+              return <FlavorItem key={item.id} {...item} />;
+            })}
+          </ul>
+        ) : null}
+      </div>
+    </div>
+  );
 }
-export default Category
+export default Category;
