@@ -7,7 +7,7 @@ export const lexicon: LexiconCategory[]  = [
         items:[
             {
                 id: "sweet",
-                color: "#cccccc",
+                color: "#BA543B",
                 displayName_en: "Sweet",
                 displayName_ja: "甘味",
                 description_en: "A fundamental taste factor of which sucrose is typical.",
@@ -15,7 +15,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "sour",
-                color: "#cccccc",
+                color: "#D5AD3A",
                 displayName_en: "Sour",
                 displayName_ja: "酸味",
                 description_en: "The fundamental taste factor associated with a citric acid solution.",
@@ -23,7 +23,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "bitter",
-                color: "#cccccc",
+                color: "#899F92",
                 displayName_en: "Bitter",
                 displayName_ja: "苦味",
                 description_en: "The fundamental taste factor associated with a caffeine solution.",
@@ -31,7 +31,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "salty",
-                color: "#cccccc",
+                color: "#E3F0F6",
                 displayName_en: "Salty",
                 displayName_ja: "塩味",
                 description_en: "A fundamental taste factor of which sodium chloride is typical.",
@@ -47,7 +47,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "fruity",
-                color: "#cccccc",
+                color: "#A9282D",
                 displayName_en: "Fruity",
                 displayName_ja: "フルーティー",
                 description_en: "A sweet, floral, aromatic blend of a variety of ripe fruits.",
@@ -55,7 +55,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "berry",
-                color: "#cccccc",
+                color: "#B0494D",
                 displayName_en: "Berry",
                 displayName_ja: "ベリー",
                 description_en: "The sweet, sour, floral, sometimes heavy aromatic associated with a variety of berries such as blackberries, raspberries, blueberries, or strawberries.",
@@ -63,7 +63,7 @@ export const lexicon: LexiconCategory[]  = [
                 items: [
                     {
                         id: "strawberry",
-                        color: "#cccccc",
+                        color: "#B7373C",
                         displayName_en: "Strawberry",
                         displayName_ja: "ストロベリー",
                         description_en: "The somewhat sweet, slightly sour, floral, fruity, frequently winey aromatic associated with strawberry.",
@@ -71,7 +71,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "raspberry",
-                        color: "#cccccc",
+                        color: "#B5335D",
                         displayName_en: "Raspberry",
                         displayName_ja: "ラズベリー",
                         description_en: "The lightly sweet, fruity, floral, slightly sour and musty aromatic associated with raspberries",
@@ -79,7 +79,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "blueberry",
-                        color: "#cccccc",
+                        color: "#5F6293",
                         displayName_en: "Blueberry",
                         displayName_ja: "ブルーベリー",
                         description_en: "The slightly dark, fruity, sweet, slightly sour, musty, dusty, floral aromatic associated with blueberry.",
@@ -87,7 +87,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "blackberry",
-                        color: "#cccccc",
+                        color: "#25021A",
                         displayName_en: "Blackberry",
                         displayName_ja: "ブラックベリー",
                         description_en: "The sweet, dark, fruity, floral, slightly sour, somewhat woody aromatic associated with blackberries.",
@@ -97,7 +97,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "dried fruit",
-                color: "#cccccc",
+                color: "#9F4946",
                 displayName_en: "Dried Fruit",
                 displayName_ja: "ドライ フルーツ",
                 description_en: "An aromatic impression of dark fruit that is sweet and slightly brown and is associated with dried plums and raisins.",
@@ -105,7 +105,7 @@ export const lexicon: LexiconCategory[]  = [
                 items: [
                     {
                         id: "raisin",
-                        color: "#cccccc",
+                        color: "#8C3B4C",
                         displayName_en: "Raisin",
                         displayName_ja: "レーズン",
                         description_en: "The concentrated, sweet, somewhat sour, brown, fruity, floral aromatic characteristic of dried grapes.",
@@ -113,7 +113,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "prune",
-                        color: "#cccccc",
+                        color: "#804162",
                         displayName_en: "Prune",
                         displayName_ja: "プルーン",
                         description_en: "The sweet, slightly brown, floral, musty and overripe aromatic impression of dark fruit associated with dried plums.",
@@ -123,7 +123,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "other fruit",
-                color: "#cccccc",
+                color: "#C7634C",
                 displayName_en: "Other Fruit",
                 displayName_ja: "その他のフルーツ",
                 description_en: "A sweet, light, fruity, somewhat floral, sour, or green aromatic that may include apples, grapes, peaches, pears, or cherries.",
@@ -131,7 +131,7 @@ export const lexicon: LexiconCategory[]  = [
                 items: [
                     {
                         id: "apple",
-                        color: "#cccccc",
+                        color: "#74AE50",
                         displayName_en: "Apple",
                         displayName_ja: "リンゴ",
                         description_en: "A sweet, light, fruity, somewhat floral aromatic commonly associated with fresh or processed apples.",
@@ -139,7 +139,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "pear",
-                        color: "#cccccc",
+                        color: "#A79D44",
                         displayName_en: "Pear",
                         displayName_ja: "洋梨",
                         description_en: "The sweet, slightly floral, musty, woody, fruity aromatic associated with pears.",
@@ -147,7 +147,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "peach",
-                        color: "#cccccc",
+                        color: "#D3815C",
                         displayName_en: "Peach",
                         displayName_ja: "桃",
                         description_en: "The floral, perfuming, fruity, sweet, slightly sour aromatic associated with peaches.",
@@ -155,7 +155,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "grape",
-                        color: "#cccccc",
+                        color: "#ABB23F",
                         displayName_en: "Grape",
                         displayName_ja: "ブドウ",
                         description_en: "The sweet, fruity, floral, slightly sour, musty aromatic commonly associated with grapes.",
@@ -163,7 +163,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "cherry",
-                        color: "#cccccc",
+                        color: "#B83B4B",
                         displayName_en: "Cherry",
                         displayName_ja: "サクランボ",
                         description_en: "The sour, fruity, slightly bitter, floral aromatic associated with cherries.",
@@ -171,7 +171,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "pomegrante",
-                        color: "#cccccc",
+                        color: "#BA5353",
                         displayName_en: "Pomegrante",
                         displayName_ja: "ザクロ",
                         description_en: "A sour, sweet fruity aromatic that may be somewhat dark, musty and earthy, reminiscent of dark fruits and root vegetables such as beets and carrots; may also have an astringent mouthfeel.",
@@ -179,7 +179,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "coconut",
-                        color: "#cccccc",
+                        color: "#B17344",
                         displayName_en: "Coconut",
                         displayName_ja: "ココナッツ",
                         description_en: "The slightly sweet, nutty, somewhat woody aromatic associated with coconut.",
@@ -187,7 +187,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "pineapple",
-                        color: "#cccccc",
+                        color: "#D4923A",
                         displayName_en: "Pineapple",
                         displayName_ja: "パイナップル",
                         description_en: "The sweet, slightly sharp, fruity aromatic associated with pineapple.",
@@ -195,7 +195,7 @@ export const lexicon: LexiconCategory[]  = [
                     },
                     {
                         id: "citrus fruit",
-                        color: "#cccccc",
+                        color: "#D89840",
                         displayName_en: "Citrus Fruit",
                         displayName_ja: "柑橘類",
                         description_en: "A citric, sour, astringent, slightly sweet, peely, and somewhat floral aromatic that may include lemons, limes, grapefruits, or oranges.",
@@ -203,7 +203,7 @@ export const lexicon: LexiconCategory[]  = [
                         items: [
                             {
                                 id: "lemon",
-                                color: "#cccccc",
+                                color: "#F3E137",
                                 displayName_en: "Lemon",
                                 displayName_ja: "レモン",
                                 description_en: "The citric, sour, astringent, slightly sweet, peely and somewhat floral aromatic associated with lemon.",
@@ -211,7 +211,7 @@ export const lexicon: LexiconCategory[]  = [
                             },
                             {
                                 id: "grapefruit",
-                                color: "#cccccc",
+                                color: "#C26055",
                                 displayName_en: "Grapefruit",
                                 displayName_ja: "グレープフルーツ",
                                 description_en: "The citric, sour, bitter, astringent, peely, sharp, slightly sweet aromatic associated with grapefruit.",
@@ -219,7 +219,7 @@ export const lexicon: LexiconCategory[]  = [
                             },
                             {
                                 id: "orange",
-                                color: "#cccccc",
+                                color: "#B65E30",
                                 displayName_en: "Orange",
                                 displayName_ja: "オレンジ",
                                 description_en: "The citric, sweet, floral, slightly sour aromatic associated with oranges, which may include bitter, peely, and astringent notes.",
@@ -227,7 +227,7 @@ export const lexicon: LexiconCategory[]  = [
                             },
                             {
                                 id: "lime",
-                                color: "#cccccc",
+                                color: "#89A946",
                                 displayName_en: "Lime",
                                 displayName_ja: "ライム",
                                 description_en: "The citric, sour, astringent, bitter, green, peely, sharp and somewhat floral aromatic associated with limes.",
@@ -247,7 +247,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "sour aromatics",
-                color: "#cccccc",
+                color: "#949D34",
                 displayName_en: "Sour Aromatics",
                 displayName_ja: "酸味のある風味",
                 description_en: "An aromatic associated with the impression of a sour product",
@@ -255,7 +255,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "acetic acid",
-                color: "#cccccc",
+                color: "#919D6B",
                 displayName_en: "Acetic Acid",
                 displayName_ja: "酢酸",
                 description_en: "A sour, astringent, slightly pungent aromatic associated with vinegar.",
@@ -263,7 +263,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "butyric acid",
-                color: "#cccccc",
+                color: "#C0AC57",
                 displayName_en: "Butyric Acid",
                 displayName_ja: "酪酸",
                 description_en: "A sour, fermented-dairy aromatic associated with certain aged cheeses such as Parmesan.",
@@ -279,7 +279,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "citric acid",
-                color: "#cccccc",
+                color: "#92AC51",
                 displayName_en: "Citric Acid",
                 displayName_ja: "クエン酸",
                 description_en: "A mild, clean, sour aromatic with slight citrus notes accompanied by astringency.",
@@ -287,7 +287,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "malic acid",
-                color: "#cccccc",
+                color: "#B3B037",
                 displayName_en: "Malic Acid",
                 displayName_ja: "リンゴ酸",
                 description_en: "A sour, sharp, somewhat fruity aromatic accompanied by astringency.",
@@ -303,7 +303,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "alcohol",
-                color: "#cccccc",
+                color: "#9F8D41",
                 displayName_en: "Alcohol",
                 displayName_ja: "アルコール",
                 description_en: "A colorless, pungent, chemical-like aromatic associated with distilled spirits or grain products.",
@@ -311,7 +311,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "whiskey",
-                color: "#cccccc",
+                color: "#8A3E3B",
                 displayName_en: "Whiskey",
                 displayName_ja: "ウイスキー",
                 description_en: "The aromatic associated with distilled products from fermented grain mash.",
@@ -319,7 +319,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "winey",
-                color: "#cccccc",
+                color: "#6B2647",
                 displayName_en: "Winey",
                 displayName_ja: "ワインのような",
                 description_en: "The sharp, pungent, somewhat fruity, alcohol-like aromatic associated with wine.",
@@ -327,7 +327,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "fermented",
-                color: "#cccccc",
+                color: "#A2893D",
                 displayName_en: "Fermented",
                 displayName_ja: "発酵した",
                 description_en: "The pungent, sweet, slightly sour, sometimes yeasty, alcohol-like aromatic characteristic of fermented fruits or sugar or over-proofed dough",
@@ -335,7 +335,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "overripe/near fermented",
-                color: "#cccccc",
+                color: "#765C3C",
                 displayName_en: "Overripe/Near Fermented",
                 displayName_ja: "完熟/発酵ぎみ",
                 description_en: "The sweet, slightly sour, damp, musty/earthy aromatic characteristic of fruit or vegetable past their optimum ripeness.",
@@ -351,7 +351,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "olive oil",
-                color: "#cccccc",
+                color: "#9EA63D",
                 displayName_en: "Olive Oil",
                 displayName_ja: "オリーブ オイル",
                 description_en: "A light, oily aromatic which may have buttery, green, peppery, bitter, and sweet notes.",
@@ -359,7 +359,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "raw",
-                color: "#cccccc",
+                color: "#6E7F3B",
                 displayName_en: "Raw",
                 displayName_ja: "生の",
                 description_en: "An aromatic associated with uncooked products.",
@@ -367,7 +367,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "under-ripe",
-                color: "#cccccc",
+                color: "#A1B23D",
                 displayName_en: "Under-ripe",
                 displayName_ja: "未熟な",
                 description_en: "An aromatic found in green/under-ripe fruit.",
@@ -375,7 +375,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "peapod",
-                color: "#cccccc",
+                color: "#78A145",
                 displayName_en: "Peapod",
                 displayName_ja: "豆のさや",
                 description_en: "Green aromatic that is sweet, beany, fresh, raw, and musty/earthy",
@@ -383,7 +383,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "green",
-                color: "#cccccc",
+                color: "#659856",
                 displayName_en: "Green",
                 displayName_ja: "グリーン",
                 description_en: "An aromatic characteristic of fresh, plant-based material. Attributes may include leafy, viney, unripe, grassy, and peapod.",
@@ -391,7 +391,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "fresh",
-                color: "#cccccc",
+                color: "#379652",
                 displayName_en: "Fresh",
                 displayName_ja: "フレッシュ",
                 description_en: "A green aromatic associated with newly cut grass and leafy plants, characterized by a sweet and pungent character.",
@@ -399,7 +399,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "dark green",
-                color: "#cccccc",
+                color: "#397947",
                 displayName_en: "Dark Green",
                 displayName_ja: "濃い緑色",
                 description_en: "The aromatic commonly associated with cooked green vegetables such as spinach, kale, or green beans that may include bitter, sweet, dusty, musty, or earthy elements, and may have a dark, heavy impression.",
@@ -407,7 +407,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "vegetative",
-                color: "#cccccc",
+                color: "#63A74B",
                 displayName_en: "Vegetative",
                 displayName_ja: "植物性",
                 description_en: "Sharp, slightly pungent aromatic associated with green plant or vegetable matter such as parsley, spinach, or peapod.",
@@ -415,7 +415,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "hay-like",
-                color: "#cccccc",
+                color: "#9B9F40",
                 displayName_en: "Hay-like",
                 displayName_ja: "干し草のような",
                 description_en: "The lightly sweet, dry, dusty aromatic with slight green character associated with dry grasses.",
@@ -423,7 +423,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "herb-like",
-                color: "#cccccc",
+                color: "#8BBB49",
                 displayName_en: "Herb-like",
                 displayName_ja: "ハーブのような",
                 description_en: "The aromatic commonly associated with green herbs that may be characterized as sweet, slightly pungent, and slightly bitter. May or may not include green or brown notes.",
@@ -431,7 +431,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "beany",
-                color: "#cccccc",
+                color: "#6C9176",
                 displayName_en: "Beany",
                 displayName_ja: "豆のような",
                 description_en: "An aromatic characteristic of beans and bean products that contains musty/earthy, musty/dusty, sour aromatic, bitter aromatic, starchy, and green/peapod, nutty or brown elements.",
@@ -447,7 +447,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "stale",
-                color: "#cccccc",
+                color: "#808080",
                 displayName_en: "Stale",
                 displayName_ja: "古くなった",
                 description_en: "The aromatic characterized by a lack of freshness.",
@@ -455,7 +455,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "papery",
-                color: "#cccccc",
+                color: "#FFFFF3",
                 displayName_en: "Papery",
                 displayName_ja: "紙のような",
                 description_en: "The aromatic associated with white paper cups.",
@@ -463,7 +463,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "cardboard",
-                color: "#cccccc",
+                color: "#B2A873",
                 displayName_en: "Cardboard",
                 displayName_ja: "段ボール",
                 description_en: "The aromatic associated with cardboard or paper packaging.",
@@ -479,7 +479,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "woody",
-                color: "#cccccc",
+                color: "#5D4A21",
                 displayName_en: "Woody",
                 displayName_ja: "ウッディー",
                 description_en: "The sweet, brown, musty, dark aromatic associated with a bark of a tree.",
@@ -487,7 +487,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "musty/earthy",
-                color: "#cccccc",
+                color: "#897F4B",
                 displayName_en: "Musty/Earthy",
                 displayName_ja: "カビ臭い/土のような",
                 description_en: "The somewhat sweet, heavy aromatic associated with decaying vegetation and damp, black soil.",
@@ -495,7 +495,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "musty/dusty",
-                color: "#cccccc",
+                color: "#B9AD7D",
                 displayName_en: "Musty/Dusty",
                 displayName_ja: "カビ臭い/ほこりっぽい",
                 description_en: "The aromatic associated with dry, closed-air spaces such as attics and closets. May have elements of dry, musty, papery, dry soil, or grain.",
@@ -503,7 +503,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "moldy/damp",
-                color: "#cccccc",
+                color: "#999B6A",
                 displayName_en: "Moldy/Damp",
                 displayName_ja: "カビ臭い/湿った",
                 description_en: "The aromatic associated with damp, closed spaces or basements. May be musty, sharp, and slightly green.",
@@ -511,7 +511,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "phenolic",
-                color: "#cccccc",
+                color: "#B55F62",
                 displayName_en: "Phenolic",
                 displayName_ja: "フェノール",
                 description_en: "The aromatic described as damp, musty, and like animal hide. Reminiscent of a tack room",
@@ -519,7 +519,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "animalic",
-                color: "#cccccc",
+                color: "#908E77",
                 displayName_en: "Animalic",
                 displayName_ja: "動物のような",
                 description_en: "A combination of the aromatics associated with farm animals and live-animal habitation.",
@@ -527,7 +527,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "meaty/brothy",
-                color: "#cccccc",
+                color: "#AC7364",
                 displayName_en: "Meaty/Brothy",
                 displayName_ja: "肉のような/ブロスのような",
                 description_en: "The aromatic associated with boiled meat, soup, or stock, with weak meaty notes.",
@@ -543,7 +543,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "medicinal",
-                color: "#cccccc",
+                color: "#7B909C",
                 displayName_en: "Medicinal",
                 displayName_ja: "医薬品",
                 description_en: "A clean, sterile aromatic characteristic of antiseptic-like products such as Band-Aids, alcohol, and iodine.",
@@ -551,7 +551,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "rubber",
-                color: "#cccccc",
+                color: "#1B1817",
                 displayName_en: "Rubber",
                 displayName_ja: "ゴム",
                 description_en: "A dark, heavy, slightly sharp, and pungent aromatic associated with rubber.",
@@ -559,7 +559,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "petroleum",
-                color: "#cccccc",
+                color: "#2990A1",
                 displayName_en: "Petroleum",
                 displayName_ja: "石油",
                 description_en: "A specific chemical aromatic associated with crude oil and its refined products, which have heavy oil characteristics.",
@@ -567,7 +567,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "skunky",
-                color: "#cccccc",
+                color: "#5D706D",
                 displayName_en: "Skunky",
                 displayName_ja: "スカンクのような",
                 description_en: "A combination of aromatics associated with skunks.",
@@ -583,7 +583,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "tabacco",
-                color: "#cccccc",
+                color: "#C9B77C",
                 displayName_en: "Tabacco",
                 displayName_ja: "タバコ",
                 description_en: "The brown, slightly sweet, slightly pungent aromatic associated with cured tobacco.",
@@ -591,7 +591,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "pipe tobacco",
-                color: "#cccccc",
+                color: "#B79C69",
                 displayName_en: "Pipe Tobacco",
                 displayName_ja: "パイプ タバコ",
                 description_en: "The brown, sweet, slightly pungent, fruity, floral, spicy aromatic associated with cured tobacco.",
@@ -599,7 +599,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "acrid",
-                color: "#cccccc",
+                color: "#A99B53",
                 displayName_en: "Acrid",
                 displayName_ja: "苦い",
                 description_en: "The dry, dusty, dirty, smoky aromatic associated with the residual of burnt products.",
@@ -607,7 +607,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "ashy",
-                color: "#cccccc",
+                color: "#858D86",
                 displayName_en: "Ashy",
                 displayName_ja: "灰のような",
                 description_en: "The aromatic associated with ash.",
@@ -615,7 +615,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "burnt",
-                color: "#cccccc",
+                color: "#A27D60",
                 displayName_en: "Burnt",
                 displayName_ja: "焦げた",
                 description_en: "The dark brown impression of an over-cooked or over-roasted product that can be sharp, bitter, and sour.",
@@ -623,7 +623,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "smoky",
-                color: "#cccccc",
+                color: "#876B42",
                 displayName_en: "Smoky",
                 displayName_ja: "スモーキー",
                 description_en: "An acute, pungent aromatic that is a product of the combustion of wood, leaves, or a non-natural product.",
@@ -631,7 +631,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "roasted",
-                color: "#cccccc",
+                color: "#694328",
                 displayName_en: "Roasted",
                 displayName_ja: "焙煎",
                 description_en: "Dark brown impression characteristic of products cooked to a high temperature by dry heat. Does not include bitter or burnt notes",
@@ -639,7 +639,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "brown, roast",
-                color: "#cccccc",
+                color: "#694328",
                 displayName_en: "Brown, Roast",
                 displayName_ja: "褐色、焙煎",
                 description_en: "A rich, full, round aromatic impression always characterized as some degree of darkness, generally associated with attributes such as toasted, nutty, roasted, and sweet.",
@@ -655,7 +655,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "grain",
-                color: "#cccccc",
+                color: "#A18869",
                 displayName_en: "Grain",
                 displayName_ja: "穀物",
                 description_en: "The light brown, dusty, musty, sweet aromatic associated with grains.",
@@ -663,7 +663,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "malt",
-                color: "#cccccc",
+                color: "#CE925E",
                 displayName_en: "Malt",
                 displayName_ja: "モルト",
                 description_en: "The light brown, dusty, musty, sweet, sour and or slightly fermented aromatic associated with grains.",
@@ -679,7 +679,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "pungent",
-                color: "#cccccc",
+                color: "#604349",
                 displayName_en: "Pungent",
                 displayName_ja: "刺激的",
                 description_en: "A sharp, physically penetrating sensation in the nasal cavity.",
@@ -687,7 +687,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "pepper",
-                color: "#cccccc",
+                color: "#A13C42",
                 displayName_en: "Pepper",
                 displayName_ja: "胡椒",
                 description_en: "The spicy, pungent, musty, and woody aromatic characteristic of ground black pepper.",
@@ -695,7 +695,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "anise",
-                color: "#cccccc",
+                color: "#AB8244",
                 displayName_en: "Anise",
                 displayName_ja: "アニス",
                 description_en: "A pungent, sweet, brown, caramelized aromatic that may contain petroleum, medicinal, and floral notes",
@@ -703,7 +703,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "nutmeg",
-                color: "#cccccc",
+                color: "#672E2F",
                 displayName_en: "Nutmeg",
                 displayName_ja: "ナツメグ",
                 description_en: "A wet, brown, woody, pungent, petroleum-like, heavy aromatic with a slightly lemony impression.",
@@ -711,7 +711,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "brown spice",
-                color: "#cccccc",
+                color: "#8D4950",
                 displayName_en: "Brown Spice",
                 displayName_ja: "ブラウン スパイス",
                 description_en: "The sweet, brown aromatic associated with spices such as cinnamon, clove, nutmeg, and allspice.",
@@ -719,7 +719,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "cinnamon",
-                color: "#cccccc",
+                color: "#BD703D",
                 displayName_en: "Cinnamon",
                 displayName_ja: "シナモン",
                 description_en: "A sweet, brown, slightly woody, slightly pungent, spicy aromatic.",
@@ -727,7 +727,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "clove",
-                color: "#cccccc",
+                color: "#886557",
                 displayName_en: "Clove",
                 displayName_ja: "クローブ",
                 description_en: "A sweet, brown, spicy, pungent, floral, citrus, medicinal, and slightly minty aromatic.",
@@ -743,7 +743,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "nutty",
-                color: "#cccccc",
+                color: "#A97F66",
                 displayName_en: "Nutty",
                 displayName_ja: "ナッツのような",
                 description_en: "A slightly sweet, brown, woody, oily, musty, astringent, and bitter aromatic commonly associated with nuts, seeds, beans, and grains.",
@@ -751,7 +751,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "almond",
-                color: "#cccccc",
+                color: "#B2957B",
                 displayName_en: "Almond",
                 displayName_ja: "アーモンド",
                 description_en: "A sweet, light brown, woody, and buttery aromatic with floral and fruity notes that may include rose, cherry, and apricot. It is also astringent and may be slightly smoky.",
@@ -759,7 +759,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "hazelnut",
-                color: "#cccccc",
+                color: "#7C4E36",
                 displayName_en: "Hazelnut",
                 displayName_ja: "ヘーゼルナッツ",
                 description_en: "A woody, brown, sweet, musty/earthy, slightly cedar aromatic. May include floral, beany, oily, astringent, and bitter flavor notes.",
@@ -767,7 +767,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "peanuts",
-                color: "#cccccc",
+                color: "#C0A639",
                 displayName_en: "Peanuts",
                 displayName_ja: "ピーナッツ",
                 description_en: "A sweet, light brown, oily, somewhat musty/dusty, beany aromatic that may be slightly astringent",
@@ -783,7 +783,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "chocolate",
-                color: "#cccccc",
+                color: "#4D2C25",
                 displayName_en: "Chocolate",
                 displayName_ja: "チョコレート",
                 description_en: "A blend of cocoa, including cocoa butter and dark roast aromatics at varying intensities.",
@@ -791,7 +791,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "cocoa",
-                color: "#cccccc",
+                color: "#9D6F4D",
                 displayName_en: "Cocoa",
                 displayName_ja: "ココア",
                 description_en: "A brown, sweet, dusty, musty, often bitter aromatic associated with cocoa bean, powdered cocoa and chocolate bars.",
@@ -799,7 +799,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "dark chocolate",
-                color: "#cccccc",
+                color: "#2D1603",
                 displayName_en: "Dark Chocolate",
                 displayName_ja: "ダークチョコレート",
                 description_en: "A high-intensity blend of cocoa and cocoa butter that may include dark roast, spicy, burnt, and musty notes with increased astringency and bitterness.",
@@ -815,7 +815,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "molasses",
-                color: "#cccccc",
+                color: "#231B19",
                 displayName_en: "Molasses",
                 displayName_ja: "モラセス",
                 description_en: "Dark, caramelized top notes that may include slightly sharp, acrid, and sulfur notes characteristic of molasses.",
@@ -823,7 +823,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "maple syrup",
-                color: "#cccccc",
+                color: "#89332B",
                 displayName_en: "Maple Syrup",
                 displayName_ja: "メイプル シロップ",
                 description_en: "A woody, sweet, caramelized, brown, slightly green aromatic associated with maple syrup.",
@@ -831,7 +831,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "brown sugar",
-                color: "#cccccc",
+                color: "#AC5754",
                 displayName_en: "Brown Sugar",
                 displayName_ja: "ブラウン シュガー",
                 description_en: "A rich, full, round, sweet aromatic impression characterized by some degree of darkness.",
@@ -839,7 +839,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "caramelized",
-                color: "#cccccc",
+                color: "#B88039",
                 displayName_en: "Caramelized",
                 displayName_ja: "キャラメル化した",
                 description_en: "A round, full-bodied, medium brown, sweet aromatic associated with cooked sugars and other carbohydrates. Does not include burnt or scorched notes.",
@@ -847,7 +847,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "honey",
-                color: "#cccccc",
+                color: "#B6582E",
                 displayName_en: "Honey",
                 displayName_ja: "ハチミツ",
                 description_en: "Sweet, light brown, slightly spicy aromatic associated with honey.",
@@ -855,7 +855,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "vanilla",
-                color: "#cccccc",
+                color: "#D6937B",
                 displayName_en: "Vanilla",
                 displayName_ja: "バニラ",
                 description_en: "A woody, slightly chemical aromatic associated with vanilla bean, which may include brown, beany, floral, and spicy notes.",
@@ -863,7 +863,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "vanillin",
-                color: "#cccccc",
+                color: "#CD6F6D",
                 displayName_en: "Vanillin",
                 displayName_ja: "バニリン",
                 description_en: "An extremely sweet, non-natural aromatic associated with vanilla, cotton candy, and marshmallows.",
@@ -871,7 +871,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "sweet aromatics",
-                color: "#cccccc",
+                color: "#A95357",
                 displayName_en: "Sweet Aromatics",
                 displayName_ja: "甘い風味",
                 description_en: "An aromatic associated with the impression of a sweet substance.",
@@ -879,7 +879,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "overall sweet",
-                color: "#cccccc",
+                color: "#BA555E",
                 displayName_en: "Overall Sweet",
                 displayName_ja: "全体的に甘い",
                 description_en: "The perception of a combination of sweet taste and aromatics.",
@@ -895,7 +895,7 @@ export const lexicon: LexiconCategory[]  = [
         items: [
             {
                 id: "floral",
-                color: "#cccccc",
+                color: "#BC6A8E",
                 displayName_en: "Floral",
                 displayName_ja: "フローラル",
                 description_en: "A sweet, light, slightly fragrant aromatic associated with fresh flowers.",
@@ -903,7 +903,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "rose",
-                color: "#cccccc",
+                color: "#C3576E",
                 displayName_en: "Rose",
                 displayName_ja: "ローズ",
                 description_en: "A sweet, soft, slightly musty/dusty floral fragrance associated with fresh or dried roses.",
@@ -911,7 +911,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "jasmine",
-                color: "#cccccc",
+                color: "#F3EDBB",
                 displayName_en: "Jasmine",
                 displayName_ja: "ジャスミン",
                 description_en: "An intense, slightly pungent, sweet, floral aromatic with underlying green, musty/dusty notes.",
@@ -919,7 +919,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "chamomile",
-                color: "#cccccc",
+                color: "#CD9648",
                 displayName_en: "Chamomile",
                 displayName_ja: "カモミール",
                 description_en: "The sweet, slightly floral/fruity, somewhat woody green associated with chamomile.",
@@ -927,7 +927,7 @@ export const lexicon: LexiconCategory[]  = [
             },
             {
                 id: "black tea",
-                color: "#cccccc",
+                color: "#7D5B63",
                 displayName_en: "Black Tea",
                 displayName_ja: "紅茶",
                 description_en: "A somewhat brown, musty, dried plant and dried bark aromatic associated with the oxidization of tea leaves.",
