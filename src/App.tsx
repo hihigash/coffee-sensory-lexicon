@@ -6,8 +6,8 @@ function App() {
   return (
     lexicon.map((category) => {
       return (
-        <div className='container mx-auto border rounded'>
-          <Category key={category.id} {...category} />
+        <div key={category.id} className='container mx-auto border rounded'>
+          <Category {...category} />
         </div>
       );
     })

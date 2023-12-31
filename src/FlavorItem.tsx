@@ -16,7 +16,7 @@ function FlavorItem(item: LexiconItem) {
           show ? (
             item.items?.map((item) => {
               return (
-                <ul className="">
+                <ul key={item.id} className="">
                   <FlavorItem key={item.id} {...item} />
                 </ul>
               )
