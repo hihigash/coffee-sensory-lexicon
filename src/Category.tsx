@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import FlavorItem from "./FlavorItem";
 
 function Category(category: LexiconCategory) {
@@ -11,7 +11,7 @@ function Category(category: LexiconCategory) {
       className="divided-y divide-slate-300 border-l border-r border-b first:rounded-t first:border last:rounded-b last:boarder p-2"
       onClick={() => setShow((state) => !state)}
     >
-      <div className="flex flex-row items-center">
+      <div className="flex flex-wrap items-center">
         <img
           src={category.image}
           alt={category.displayName_en}
@@ -21,7 +21,7 @@ function Category(category: LexiconCategory) {
         <span className="font-sans text-sm p-2 text-slate-500">
           {category.displayName_ja}
         </span>
-        <FontAwesomeIcon icon={faAngleDown} className="ml-auto" />
+        <FontAwesomeIcon icon={show ? faAngleUp : faAngleDown} className="ml-auto" />
       </div>
       <div>
         {show ? (
