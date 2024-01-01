@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="mx-auto">
       {lexicon.map((category) => {
         return <Category key={category.id} {...category} />;
       })}

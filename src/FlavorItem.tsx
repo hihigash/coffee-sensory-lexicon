@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function FlavorItem(item: LexiconItem) {
   const [show, setShow] = useState(false);
@@ -26,7 +26,7 @@ function FlavorItem(item: LexiconItem) {
                 {item.displayName_ja}
               </span>
               {item.items?.length ? (
-                <FontAwesomeIcon icon={faAngleRight} className="ml-auto" />
+                <FontAwesomeIcon icon={faAngleDown} className="ml-auto" />
               ) : null}
             </div>
             <article className="flex flex-col items-baseline text-wrap m-2">

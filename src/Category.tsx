@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import FlavorItem from "./FlavorItem";
 
 function Category(category: LexiconCategory) {
@@ -21,7 +21,7 @@ function Category(category: LexiconCategory) {
         <span className="font-sans text-sm p-2 text-slate-500">
           {category.displayName_ja}
         </span>
-        <FontAwesomeIcon icon={faAngleRight} className="ml-auto" />
+        <FontAwesomeIcon icon={faAngleDown} className="ml-auto" />
       </div>
       <div>
         {show ? (
